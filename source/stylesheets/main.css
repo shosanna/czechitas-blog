@@ -19,6 +19,10 @@ hr {
     width: 100%;
 }
 
+h2 {
+    font-size: 22px;
+}
+
 .well {
     background-color: white;
     border-radius: 0;
@@ -29,4 +33,32 @@ hr {
     width: 500px;
     display: block;
     margin: auto;
+}
+
+.stripe  {
+    background: url("/images/stripe.png");
+    background-repeat: repeat-x;
+    height: 90px;
+}
+
+.footer {
+    padding: 0;
+    height: 100%;
+}
+
+.links {
+    margin-top: 10px;
+    text-align: center;
+    list-style: none;
+    padding: 0;
+}
+
+.links li {
+    background-color: #b82e80;
+    color: white;
+    margin-top: 10px;
+}
+
+.links a {
+    color: white;
 }

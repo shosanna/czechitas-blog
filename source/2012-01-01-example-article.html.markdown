@@ -1,7 +1,8 @@
 ---
 title: Example Article
 date: 2012-01-01
-tags: example
+tags: Czechitas
+layout: post
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempus et ante ac tempus. Vivamus ullamcorper tellus vel erat vulputate dignissim. Duis vehicula odio a augue volutpat, id tincidunt risus pellentesque. In hac habitasse platea dictumst. Suspendisse non nisl nulla. Vivamus pellentesque leo non nibh porttitor hendrerit. Phasellus diam enim, ornare ut est eget, ornare rutrum felis.
