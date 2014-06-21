@@ -1,0 +1,32 @@
+/* GENERAL STYLES ACROSS THE BLOG */
+
+body {
+    color: #404041;
+    font-family: "brevia",sans-serif;
+}
+
+a {
+    color: #b82e80;
+}
+
+a:hover {
+    text-decoration: none;
+    color: white;
+    background-color: #b82e80;
+}
+
+hr {
+    width: 100%;
+}
+
+.well {
+    background-color: white;
+    border-radius: 0;
+    box-shadow: 1px 1px 4px #404041;
+    margin-right: 30px;
+}
+.logo {
+    width: 500px;
+    display: block;
+    margin: auto;
+}
