@@ -29,6 +29,10 @@ activate :blog do |blog|
   # blog.page_link = "page/{num}"
 end
 
+activate :syntax
+set :markdown_engine, :redcarpet
+set :markdown, fenced_code_blocks: true, smartypants: true
+
 page "/feed.xml", layout: false
 
 ###
@@ -69,7 +73,7 @@ page "/feed.xml", layout: false
 # activate :automatic_image_sizes
 
 # Reload the browser automatically whenever files change
-# activate :livereload
+activate :livereload
 
 # Methods defined in the helpers block are available in templates
 # helpers do
