@@ -3,6 +3,7 @@ title: Jaký je rozdíl mezi Ruby a Ruby on Rails?
 date: 2014-06-22 21:01 UTC
 tags: Rails
 layout: post
+author: Zuzka
 ---
 
 Téměř každý, kdo někdy začínal s programováním si někdy položil tuto otázku či její obměnu. Svět moderních technologií je natolik rozsáhlý, že všechny tyto pojmy můžou být pro začátečníka velice matoucí. Přidejme ještě věci jako SQLite, git, příkazová řádka, terminál, bundler, sublime text, server, localhost, comit, migrace .. a už to začíná být spíše jeden velký cirkus. V tomto článku se blíže podíváme na základní rozdělení ze všech, na alfu a omegu vašeho programování v Rails - v čem se Rails liší od samotného Ruby? A kdy použiji co?
@@ -39,4 +40,4 @@ end
 
 Jestli jste se někdy učili Ruby, rozhodně jste se učili deklarovat třídy či jejich dědičnost, není to tedy nic nového. To, co je uvnitř, je jen volání různých metod. Jak jsem říkala v úvodu, my zde nevidíme a ani nechceme vidět implementaci. Spoléháme se a věříme, že například `validates_presence_of` jako metoda, která bere jeden parametr (my ji zde voláme s naším textem) udělá to, co se od ní čeká. Tedy neuloží novou instanci `Question` s prázdným atributem `text`.
 
-A kde se ta implementace bere? Přeci jsme ji nainstalovali na náš počítač když jsme psali `gem install rails`. Stáhli jsme si do počítače všechno, co Rails přináší a začali čerpat jeho výhody. Snad je tedy již jasnější, jaký rozdíl je mezi jazykem, který hovoří s počítačem a překládá mu naše úmysly a mezi knihovnou či celou sadou knihoven, která tento jazyk využívá aby nám ušetřila práci. Úvaha na závěr: gemy jsou vlastně také knihovny!v
+A kde se ta implementace bere? Přeci jsme ji nainstalovali na náš počítač když jsme psali `gem install rails`. Stáhli jsme si do počítače všechno, co Rails přináší a začali čerpat jeho výhody. Snad je tedy již jasnější, jaký rozdíl je mezi jazykem, který hovoří s počítačem a překládá mu naše úmysly a mezi knihovnou či celou sadou knihoven, která tento jazyk využívá aby nám ušetřila práci. Úvaha na závěr: gemy jsou vlastně také knihovny!

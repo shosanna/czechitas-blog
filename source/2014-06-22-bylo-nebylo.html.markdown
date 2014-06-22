@@ -3,6 +3,7 @@ title: Bylo nebylo..
 date: 2014-06-22 20:49 UTC
 tags: Czechitas
 layout: post
+author: Dita
 ---
 
 ...lépe řečeno: Byla nebyla... jedna holka, co si tuze sobecky přála kamarádky v tom jejím kouzelném světe informačních technologií.
@@ -14,6 +15,8 @@ kamarádky budou v budoucím zaměstnání potřebovat pokročilou práci s poč
 Bylo těžké zvednout ruku na hodině programování a zeptat se na zdánlivé banality, když kolem sedělo desítky kluků. Bylo těžké pak v práci budovat sebevědomí
 a získat si respekt v oblastech, co jsou přece jen klučičí záležitost. A tak se, vycházejíc z vlastní potřeby, spojila s dalšíma vyjímečnýma ženama
 v IT a založila **Czechitas**, občanské sdružení, jehož cílem a smyslem je vzdělávat holky v IT.
+
+![railsgirls](rails.jpg)
 
 Začlo to ještě nevinně v červnu roku 2013, kdy jsme uspořádali v Brně s Techsquatem holčičí bezplatný programovací víkend pro holky, Rails Girls,
 v rámci něhož se holky naučily základy Ruby on Rails. Workshop vychází z celosvětového konceptu a může ho uspořádat každý, kdo má chuť, čas, kouče,

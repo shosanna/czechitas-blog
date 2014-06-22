@@ -62,3 +62,18 @@ h2 {
 .links a {
     color: white;
 }
+
+.author {
+    background-color: #b82e80;
+    padding: 5px;
+    width: 300px;
+    color: white;
+    text-align: center;
+}
+.image-box {
+    padding: 0;
+}
+.image {
+    width: 300px;
+
+}

@@ -5,8 +5,12 @@
   <%= current_article.body %>
   <hr class="space-maker">
 
-
-
+  <div class="author">
+  Napsala <%= current_article.data.author %>
+  </div>
+  <div class="image-box">
+    <%= image_tag current_article.data.author.downcase + ".jpg", class: "image" %>
+  </div>
 
 <% end %>
 </div>

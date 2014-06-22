@@ -3,6 +3,7 @@ title: Editor nebo příkazová řádka?
 date: 2014-06-22 21:15 UTC
 tags: Rails, Command line
 layout: post
+author: Zuzka
 ---
 
 Pro psaní webové aplikace v Ruby on Rails potřebujeme dva nástroje - editor a příkazovou řádku. Oba dva mají poměrně jasně odlišitelnou funkčnost a způsob použití, pojďme si to objasnit na příkladech.
