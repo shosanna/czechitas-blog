@@ -69,9 +69,13 @@ h2 {
     width: 300px;
     color: white;
     text-align: center;
+    margin: auto;
 }
 .image-box {
     padding: 0;
+    margin: auto;
+    display: block;
+    width: 300px;
 }
 .image {
     width: 300px;
