@@ -1,0 +1,81 @@
+---
+title: Gemy a jak fungují
+date: 2014-06-29 21:15 UTC
+tags: Rails
+layout: post
+author: Zuzka
+---
+
+Gemy jsou nedílnou součástí světa Ruby on Rails. Každý, kdo dnes vyvíjí webovou aplikaci v Ruby, je v nějaké míře používá. Tento článek vysvětluje o co se vlastně jedná a popisuje obecný princip, na jakém fungují gemy. V následující části pak shrnuji základní gemy, které považuji za důležité znát a vědět, kdy použít, neboť vám mohou značně ušetřit čas i práci. 
+
+Gemy neboli anglicky gems představují knihovny předem připraveného Ruby kódu, který slouží k nějakému jasnému účelu. To, jak určitý gem uvnitř funguje přitom není vůbec důležité. Hlavní je, že se jeho uživatel může spolehnout, že splní svou funkci. Aby uživatel věděl, jak daný gem používat, musí mít dokumentaci. Nejčastěji se bude jednat o soubor README kde je přehledně popsáno vše co je třeba, případně i s příklady. Uživatel přidává gemy do své aplikace tak, že napíše jejich název do tzv. Gemfile. Samotná instalace knihovny se ale neděje v ten moment, kdy napíšeme název gemu a soubor uložíme, tím to jen připravíme. Všechno, co je v Gemfilu napsané pak najednou naisntalujeme jedním příkazem z příkazové řádky:
+
+```
+bundle install
+```
+
+Tento příkaz stáhne dané gemy z internetu a rozbalí do našeho počítače. Děje se tak za pomocí nástroje zvaného Bundler (proto píšeme bundle), který se jednak stará o tu instalaci, ale také pro nás pohlídá závislosti. To znamená, že když nějaký gem potřebuje pro svou funkčnost jiný, Bundler to ví a stáhne i ten potřebný.
+
+Takže si tedy vybereme Gem podle účelu, který s ním chceme dosáhnout (o tom více za chvíli), specifikujeme jeho název (případně verzi, jakou chceme použít) do Gemfile a nainstalujeme. Použití Gemu pak zavísí případ od případu, jde ale o to, že autor připravil nějaké rozhraní, které se jednoduše používá a je instuitivní. Může to být třeba sada funkcí, které již svým názvem říkají, co asi budou dělat, proto není potřeba vidět "dovnitř" na přesnou implementaci.
+
+Příklad:
+Tento příklad je velice zjednodušený a hloupý, ale názorně ukazuje princip Gemu:
+
+Gem "Mathematica"
+
+```ruby
+def product(x,y)
+  return x * y
+end
+
+def sum(x,y)
+  return x + y
+end
+
+def min(x,y)
+  if x < y
+    return x
+  else
+    retun y
+  end
+end 
+
+def eql?(x,y)
+   return true if x == y
+end
+```
+
+Soubor README
+
+```
+Dobrý den!
+Vítejte v Mathematice. Tento modul vám umožňuje použít základní matematické operace pomocí jednoduché syntaxe.
+Všechny funkce berou vždy dva parametry, používejte na ně celá čísla či floaty.
+
+Součin = pro zjištění součinu dvou čísel zavolejte metodu product, viz příklad:
+product(4,2) 
+=> 8
+
+Součet = pro zjištění součtu dvou čísel zavolejte metodu sum, viz. příklad:
+sum(1,1)
+=> 2
+
+Minimum = pro zjištění minima ze dvou čísel zavolejte funkci min, viz. příklad:
+min(345,2331)
+=> 345
+
+Rovnost = pro zjištění, zda se dvě čísla rovnají použijte metodu eql?, viz. příklad:
+eql?(2,3)
+=> False
+
+Děkujeme za použití gemu Mathematica!
+```
+
+Jak vidíte,soubor README je to jediné, co je potřeba pro aktivní použití gemu a získání užitku. Samotná implementace zde není ani zmíněna, ta si žije sama ve zdrojových kódech a uživatel začátečník se jí nemusí příliš trápit. Nicméně pro pokročilejší programátory vřele doporučuji prozkoumávat i zdrojové kódy pro přesné pochopení, jak daný gem funguje a jak si ho případně lze přízpůsobit. 
+
+Další důležitá věc, kterou je třeba zmínit, je že všechny funkce, které gem poskytuje, by si uživatel mohl napsat i sám. Není to žádná magie, není tam nic víc než napsané Ruby. Pointa je v tom, že to někdo před vámi pro vás připravil a zdokumentoval tak, že vám ušetřil práci. V další části se podíváme na některé důležité gemy, které je dobré znát. 
+
+
+
+
+
