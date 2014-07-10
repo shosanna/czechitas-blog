@@ -70,7 +70,7 @@ h2.post-title {
 .author {
     background-color: #b82e80;
     padding: 5px;
-    width: 300px;
+    width: 200px;
     color: white;
     text-align: center;
     margin: auto;
@@ -79,9 +79,9 @@ h2.post-title {
     padding: 0;
     margin: auto;
     display: block;
-    width: 300px;
+    width: 200px;
 }
 .image {
-    width: 300px;
+    width: 200px;
 
 }
