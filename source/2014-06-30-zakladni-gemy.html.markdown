@@ -3,6 +3,7 @@ title: 5 základních gemů
 date: 2014-06-30 1:15 UTC
 tags: Rails
 layout: post
+published: false
 author: Zuzka
 ---
 

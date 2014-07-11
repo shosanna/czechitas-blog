@@ -3,6 +3,7 @@ title: Editor nebo příkazová řádka?
 date: 2014-06-22 21:15 UTC
 tags: Rails, Command line
 layout: post
+published: false
 author: Zuzka
 ---
 

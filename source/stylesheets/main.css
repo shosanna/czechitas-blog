@@ -5,6 +5,24 @@ body {
     font-family: "brevia",sans-serif;
 }
 
+body {
+  position: relative;
+}
+
+body:after {
+    content: "";
+    opacity: 0.1;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-image: url('/images/tile.png');
+    background-repeat: repeat;
+    display: block;
+}
+
 a {
     color: #b82e80;
 }
@@ -39,32 +57,24 @@ h2.post-title {
     margin: auto;
 }
 
-.stripe  {
-    background: url("/images/stripe.png");
-    background-repeat: repeat-x;
-    height: 90px;
-}
-
 .footer {
-    padding: 0;
     height: 100%;
 }
 
 .links {
     margin-top: 10px;
-    text-align: center;
-    list-style: none;
-    padding: 0;
 }
 
 .links li {
-    background-color: #b82e80;
-    color: white;
     margin-top: 10px;
 }
 
 .links a {
-    color: white;
+    color: #b82e80;
+}
+
+.links a:hover {
+  color: white;
 }
 
 .author {
