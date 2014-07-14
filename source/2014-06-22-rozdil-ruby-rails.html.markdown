@@ -3,7 +3,6 @@ title: Jaký je rozdíl mezi Ruby a Ruby on Rails?
 date: 2014-06-22 21:01 UTC
 tags: Rails
 layout: post
-published: false
 author: Zuzka
 ---
 
