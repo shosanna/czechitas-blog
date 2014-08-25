@@ -3,7 +3,6 @@ title: Gemy a jak fungují
 date: 2014-06-29 21:15 UTC
 tags: Rails
 layout: post
-published: false
 author: Zuzka
 ---
 

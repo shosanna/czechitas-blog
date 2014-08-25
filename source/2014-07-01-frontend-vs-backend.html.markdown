@@ -3,7 +3,6 @@ title: Frontend vs. Backend
 date: 2014-07-01 14:19 UTC
 tags: Programování
 author: Zuzka
-published: false
 layout: post
 ---
 
