@@ -1,0 +1,28 @@
+---
+title: Nevadí, že neumím fotit - díl 1 - Horizont
+date: 2014-09-08 22:15 UTC
+tags: Grafika
+layout: post
+author: Jana
+---
+
+Rády fotíte, ale ne vždy jste spokojené s tím, co z foťáku nakonec vyleze?
+Nevadí!  S pomocí několika nástrojů v Gimpu vás naučím, jak fotkám upravit
+barvy, ořezat je, natočit, přidat rámeček, vodoznak nebo jak si vytvořit svoji
+vlastní tapetu na plochu monitoru.  Na internetu naleznete mnoho dalších
+tutoriálů, které se úpravám fotek věnují.  Jednu konkrétní úpravu lze dokonce
+udělat různými způsoby.  Proto se je nebojte zkoušet, hledat nové a nové cesty,
+jak se ke kýženému výsledku dostat.  Protože je téma úprav fotografií velmi
+obsáhlé, články se zde budou objevovat postupně.  V každém dílu si podrobněji
+probereme jeden nástroj a následně jej použijeme k úpravě fotky.
+
+V prvním díle se budeme věnovat nástroji <b>Rotate Tool</b>.  Věřím, že se to stalo
+nejedné z nás.  Vyfotíme si moře, ale protože je displej foťáku či mobilu moc
+malý, případně na něj svítí sluníčko a moře moc dobře nevidíme, vznikne nám
+„moře co teče z kopce“.  Někdy to samozřejmě může být záměr, ale co dělat, když
+to záměr nebyl?  Některé foťáky nebo mobily dokáží na displeji zobrazit
+čtvercovou mřížku, podle které lze horizont správně nastavit, ale pokud vaše
+zařízení takovou super vychytávku nemá, nemusíte zoufat.  Fotku si můžete
+dodatečně v počítači upravit.
+
+<a href="/images/nakloneny.png", target="blank"><img src="/images/nakloneny.png" class="image-in-text" style="width:500px;margin:auto;display:block;"></img></a>

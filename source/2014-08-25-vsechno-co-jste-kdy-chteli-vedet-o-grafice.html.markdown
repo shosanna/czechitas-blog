@@ -1,5 +1,5 @@
 ---
-title: Všechno, co jste kdy chtěli vědět o grafice
+title: Všechno, co jste kdy chtěly vědět o grafice
 date: 2014-08-25 19:16 UTC
 tags: Grafika
 layout: post
@@ -28,7 +28,7 @@ Photoshop a Corel Photo Paint (placené programy).
 Pro vektorovou grafiku je to pak Adobe Illustrator, Corel Draw nebo Inkscape
 (neplacený, budeme se mu věnovat na podzim).
 
-Každý obrázek má nějaké rozlišení. Rozlišeni se udává v tzv.**DPI (dots per inch)** a
+Každý obrázek má nějaké rozlišení. Rozlišeni se udává v tzv.** DPI (dots per inch)** a
 udává kvalitu obrázku, tzn. počet pixelů na délku jednoho palce. Čím větší DPI
 máme, tím obrázek zabírá víc paměti v počítači, což nám pak může působit
 problémy například pokud ho budeme chtít poslat e-mailem.
@@ -83,11 +83,11 @@ uložení v daném formátu, budou stejně kvalitní. Oba formáty podporují pr
 pozadí, využíváme je na loga, ikony. GIF podporuje animace, má však nejmenší
 barevnou hloubku. PNG je vhodný pro webové stránky.
 
-**Takže když si to shrneme:**
-Máme dva základní druhy počítačové grafiky - bitmapovou a vektorovou.
-Každý obrázek má nějakou kvalitu - udává se v DPI.
-RGB je zobrazování, CMYK je tisk.
-Můžeme se setkat s různými formáty obrázku, nejčastěji s .jpg, .png a .gif.
-
+**Takže, když si to shrneme:** <br>
+Máme dva základní druhy počítačové grafiky - bitmapovou a
+vektorovou.<br>
+Každý obrázek má nějakou kvalitu - udává se v DPI.<br>
+RGB je zobrazování, CMYK je tisk.<br>
+Můžeme se setkat s různými formáty obrázku, nejčastěji s .jpg, .png a .gif.<br>
 Nesmíme se zapomenout přihlásit na druhý grafický workshop, který bude na
 podzim!!
