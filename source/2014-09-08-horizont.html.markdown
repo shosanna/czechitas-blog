@@ -3,7 +3,7 @@ title: Nevadí, že neumím fotit - díl 1 - Horizont
 date: 2014-09-08 22:15 UTC
 tags: Grafika
 layout: post
-author: Jana
+author: Janka
 ---
 
 Rády fotíte, ale ne vždy jste spokojené s tím, co z foťáku nakonec vyleze?
@@ -26,3 +26,110 @@ zařízení takovou super vychytávku nemá, nemusíte zoufat.  Fotku si můžet
 dodatečně v počítači upravit.
 
 <a href="/images/nakloneny.png", target="blank"><img src="/images/nakloneny.png" class="image-in-text" style="width:500px;margin:auto;display:block;"></img></a>
+
+<h2>ROTATE TOOL</h2>
+<a href="/images/rotate-icon.png", target="blank"><img src="/images/rotate-icon.png" class="image-in-text" style="width:60px;"></img></a>
+<em>Nástroj sloužící k rotaci objektů nalezneme v panelu nástrojů na levé straně.<br>
+Zkratka Shift+R.</em>
+
+<div class="tip">Tip! Dvojitým poklepáním na ikonu v panelu nástrojů se vpravo otevře podrobnější nastavení daného nástroje. </div>
+<a href="/images/Rotate.png", target="blank"><img src="/images/Rotate.png" class="image-in-text" style="width:200px;margin:auto;display:block;"></img></a>
+
+<b>Transform</b> – vybíráme, čím chceme rotovat. Aktivní vrstvou, výběrem, který si předem uděláme nebo cestou, kterou si nakreslíme. 
+
+<b>Direction</b> - určuje typ otáčení.<br>
+<ul>
+    <li>Normal – klasické otočení, kdy se celý objekt pootočí o zadaný stupeň.</li>
+    <li>>Corrective – pokud potřebujeme upravit nakloněnou rovinu, jako jsou například horizonty padající na jednu stranu.</li>
+</ul>
+
+<b>Interpolation</b> - ovlivňuje kvalitu natočeného objektu.
+<ul>
+    <li>None – rotace se provede rychleji, protože nedochází k žádným velkým výpočtům. Použije se takový algoritmus, kdy se pixel obarví podle nejbližšího souseda. Může však dojít k nežádoucím efektům, jako jsou zubaté rohy nebo mohou být vidět čtverečky, které mají stejnou barvu.</li>
+    <li>Linear – průměr, dochází k proporcionálnímu dopočtení pixelů.</li>
+    <li>Cubic – defaultní neboli přednastavená hodnota, nejlepší výsledek za rozumnou dobu.</li>
+    <li>Sinc – nejlepší výsledek, ale výpočet může trvat dlouho.</li>
+</ul>
+Pokud nemáme výrazně pomalejší počítač, je vhodné zachovat přednastavenou hodnotu Cubic, případně Sinc.
+
+<div class="extra-box">
+Něco navíc! <br>
+Každá fotka se skládá z mnoha a mnoha pixelů. Samotný pixel je složený ze 3 barev – červená, zelená a modrá. Tyto barvy jsou v pixelu obsaženy v různém poměru a když se smíchají, dávají jednu jedinou barvu – tu, kterou doopravdy vidíme.<br>
+Představme si, že naše fotka má 4 pixely (A,B,C,D) a my ji budeme chtít zvětšit tak, že bude mít 9 pixelů. Naše 4 pixely při zvětšování nikam nezmizí, jen se posunou. Avšak zvětšením vznikne 5 nových pixelů (E,F,G,H,I), kterým nyní potřebujeme přiřadit barvy. A na to slouží tzv. interpolace. 
+<a href="/images/pixels.png", target="blank"><img src="/images/pixels.png" class="image-in-text" style="width:300px;"></img></a>
+<br>
+Existuje několik druhů interpolací, Gimp nabízí například: <br>
+<b>None </b> – zde se využívá algoritmus podle nejbližšího souseda. Pixely E,F,G by tedy mohly být obarveny stejnou barvou, jako pixel A.<br>
+<b>Linear</b> – proporcionální dopočtení chybějících pixelů. Pixel E by se dopočítal jako (A+B)/2, pixel G jako (A+B+C+D)/4.<br>
+<b>Cubic/Sinc</b> – pracují se složitějšími algoritmy.<br>
+</div>
+
+</div>
+<br>
+<b>Clipping</b> – určujeme jím oříznutí natočeného objektu.
+<ul>
+<li>Adjust – po otočení se vrstva rozšíří tak, aby pokryla celý natočený objekt. Nerozšíří se však plátno, je potřeba jej zvětšit a to pomocí Image – Fit Canvas to Layer.
+</li>
+</ul>
+<a href="/images/rotate-objects.png", target="blank"><img src="/images/rotate-objects.png" class="image-in-text" style="width:600px;"></img></a>
+<br><br>
+Máme plátno a na něm otevřenou fotografii. Pokud fotkou otočíme, plátno zůstane stejně velké, ale vrstva se rozšíří na velikost otočené fotografie. Jestliže chceme fotografii zachovat rožky, které z plátna přečnívají ven, musíme rozšířit plátno na velikost vrstvy pomocí Image – Fit Canvas to Layer. 
+<br>
+
+<ul>
+<li>Clip – vrstva se po otočení nerozšíří a objekt se ořeže na velikost plátna. </li>
+</ul>
+<br>
+<a href="/images/rotate-objects2.png", target="blank"><img src="/images/rotate-objects2.png" class="image-in-text" style="width:600px;"></img></a>
+
+- Crop with aspect – maximální ořez fotky, ale se zachováním poměru stran původní fotografie. Poté je vhodné použít Image – Fit Canvas to Layers a ořezat plátno na velikost vrstvy.
+<a href="/images/rotate-objects3.png", target="blank"><img src="/images/rotate-objects3.png" class="image-in-text" style="width:600px;"></img></a>
+
+<b>Show Image Preview</b> – zaškrtnutím povolíme zobrazování náhledu při otáčení. Pozor, funguje pouze u Direction – Normal, kde je žádoucí vidět, jak bude fotka natočená. U Corrective nás zajímá mřížka, nikoli náhled fotky.
+
+- <b>Image Opacity</b> – průhlednost náhledu.
+
+<b>Guides</b> – různé druhy pomocných vodítek které se zobrazí, když chceme s objektem otočit. Nejčastěji používaná jsou Number of Lines. 
+
+- No Guides – žádná vodítka, zůstane pouze obrys objektu.
+- Center Lines – jedno horizontální a jedno vertikální vodítko.
+- Rule of Thirds – dvě horizontální a tři vertikální vodítka rozdělí objekt na 9 stejných částí.
+- Rule of Fifths – čtyři horizontální a čtyři vertikální vodítka.
+- Golden Sections – zlatý řez. Podobně jako Rule of Thirds, ale poměry mezi vodítky jsou dány matematickým vzorcem. Nejzajímavější části fotky, případně to, na co chceme upozornit, by mělo být tam, kde se vodítka protínají.
+- Diagonal Lines – čtyři diagonály.
+- Number of Lines – mřížka. Níže lze nastavit, kolik vertikálních a horizontálních čar se bude zobrazovat.
+- Line Spacing – mřížka, u které lze nastavit mezery mezi čarami.
+
+<b>15 Degrees</b> – zatrhnutím a poté posunem myši mřížkou (nebo posuvníkem) rotujeme po 15 stupních. Ulehčení, pokud chceme otáčet o 90 nebo 45 stupňů.
+
+<h2>ROTATE DIALOG</h2>
+Dialog se zobrazí po aktivaci nástroje Rotate Tool a následném kliknutí do fotografie.
+
+<b>Angle</b> – stupeň otočení. Lze nastavit šipkami, posunem kolečka níže nebo tažením za mřížku přímo na fotce.
+
+<b>Center X/Y</b> – nastavení středu rotace, teda kolem jakého bodu se bude rotovat.
+
+<a href="/images/dialog.png", target="blank"><img src="/images/dialog.png" class="image-in-text" style="width:400px;margin:auto;display:block;"></img></a>
+
+<b>Jak na to!</b>
+
+Fotografii otevřeme pomocí File - Open. Vybereme nástroj Rotate Tool a napravo nastavíme: 
+
+- Transform – Layer
+- Direction – Corrective
+- Interpolation - Cubic
+- Clipping – Crop with aspect
+
+<a href="/images/1.png", target="blank"><img src="/images/1.png" class="image-in-text" style="width:500px;margin:auto;display:block;"></img></a>
+
+Klepnutím do fotky se objeví Rotate Dialog, kde mřížku natočíme tak, aby byl nakloněný horizont srovnaný s pomocnými vodítky. 
+
+<a href="/images/2.png", target="blank"><img src="/images/2.png" class="image-in-text" style="width:500px;margin:auto;display:block;"></img></a>
+
+Po kliknutí na Rotate se fotka správně otočí a ořeže se na původní poměr stran.
+
+<a href="/images/3.png", target="blank"><img src="/images/3.png" class="image-in-text" style="width:500px;margin:auto;display:block;"></img></a>
+
+Nyní stačí ořezat i plátno pod ní a to pomocí Image- <b>Fit Canvas to Layers. </b>
+
+<a href="/images/4.png", target="blank"><img src="/images/4.png" class="image-in-text" style="width:500px;margin:auto;display:block;"></img></a>

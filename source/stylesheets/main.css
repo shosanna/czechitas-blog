@@ -95,3 +95,15 @@ h2.post-title {
     width: 200px;
 
 }
+
+.extra-box {
+    background-color: rgb(92, 59, 135);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.tip {
+    font-weight: bold;
+    color: #b82e80;
+}
