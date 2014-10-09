@@ -28,10 +28,10 @@ dodatečně v počítači upravit.
 <a href="/images/nakloneny.png", target="blank"><img src="/images/nakloneny.png" class="image-in-text" style="width:500px;margin:auto;display:block;"></img></a>
 
 <h2>ROTATE TOOL</h2>
-<a href="/images/rotate-icon.png", target="blank"><img src="/images/rotate-icon.png" class="image-in-text" style="width:60px;"></img></a>
+<a href="/images/rotate-icon.png" target="blank"><img src="/images/rotate-icon.png" class="image-in-text float" style="width:60px;"></img></a>
 <em>Nástroj sloužící k rotaci objektů nalezneme v panelu nástrojů na levé straně.<br>
 Zkratka Shift+R.</em>
-
+<br><br>
 <div class="tip">Tip! Dvojitým poklepáním na ikonu v panelu nástrojů se vpravo otevře podrobnější nastavení daného nástroje. </div>
 <a href="/images/Rotate.png", target="blank"><img src="/images/Rotate.png" class="image-in-text" style="width:200px;margin:auto;display:block;"></img></a>
 
@@ -40,7 +40,7 @@ Zkratka Shift+R.</em>
 <b>Direction</b> - určuje typ otáčení.<br>
 <ul>
     <li>Normal – klasické otočení, kdy se celý objekt pootočí o zadaný stupeň.</li>
-    <li>>Corrective – pokud potřebujeme upravit nakloněnou rovinu, jako jsou například horizonty padající na jednu stranu.</li>
+    <li>Corrective – pokud potřebujeme upravit nakloněnou rovinu, jako jsou například horizonty padající na jednu stranu.</li>
 </ul>
 
 <b>Interpolation</b> - ovlivňuje kvalitu natočeného objektu.
@@ -68,24 +68,26 @@ Existuje několik druhů interpolací, Gimp nabízí například: <br>
 <br>
 <b>Clipping</b> – určujeme jím oříznutí natočeného objektu.
 <ul>
-<li>Adjust – po otočení se vrstva rozšíří tak, aby pokryla celý natočený objekt. Nerozšíří se však plátno, je potřeba jej zvětšit a to pomocí Image – Fit Canvas to Layer.
+<li><b>Adjust</b> – po otočení se vrstva rozšíří tak, aby pokryla celý natočený objekt. Nerozšíří se však plátno, je potřeba jej zvětšit a to pomocí Image – Fit Canvas to Layer.
 </li>
 </ul>
 <a href="/images/rotate-objects.png", target="blank"><img src="/images/rotate-objects.png" class="image-in-text" style="width:600px;"></img></a>
-<br><br>
-Máme plátno a na něm otevřenou fotografii. Pokud fotkou otočíme, plátno zůstane stejně velké, ale vrstva se rozšíří na velikost otočené fotografie. Jestliže chceme fotografii zachovat rožky, které z plátna přečnívají ven, musíme rozšířit plátno na velikost vrstvy pomocí Image – Fit Canvas to Layer. 
-<br>
+<ul>
+<li>Máme plátno a na něm otevřenou fotografii. Pokud fotkou otočíme, plátno zůstane stejně velké, ale vrstva se rozšíří na velikost otočené fotografie. Jestliže chceme fotografii zachovat rožky, které z plátna přečnívají ven, musíme rozšířit plátno na velikost vrstvy pomocí <em>Image – Fit Canvas to Layer.</em> 
+</li></ul>
 
 <ul>
-<li>Clip – vrstva se po otočení nerozšíří a objekt se ořeže na velikost plátna. </li>
+<li><b>Clip</b> – vrstva se po otočení nerozšíří a objekt se ořeže na velikost plátna. </li>
 </ul>
 <br>
 <a href="/images/rotate-objects2.png", target="blank"><img src="/images/rotate-objects2.png" class="image-in-text" style="width:600px;"></img></a>
 
-- Crop with aspect – maximální ořez fotky, ale se zachováním poměru stran původní fotografie. Poté je vhodné použít Image – Fit Canvas to Layers a ořezat plátno na velikost vrstvy.
+- <b>Crop to result </b>– po otočení dojde k maximálnímu ořezání fotky – nezachová se původní poměr stran. Poté je vhodné použít Image – Fit Canvas to Layers a ořezat plátno na velikost vrstvy.
+<a href="/images/result.png", target="blank"><img src="/images/result.png" class="image-in-text" style="width:600px;"></img></a>
+- <b>Crop with aspect</b> – maximální ořez fotky, ale se zachováním poměru stran původní fotografie. Poté je vhodné použít <em>Image – Fit Canvas to Layers</em> a ořezat plátno na velikost vrstvy.
 <a href="/images/rotate-objects3.png", target="blank"><img src="/images/rotate-objects3.png" class="image-in-text" style="width:600px;"></img></a>
 
-<b>Show Image Preview</b> – zaškrtnutím povolíme zobrazování náhledu při otáčení. Pozor, funguje pouze u Direction – Normal, kde je žádoucí vidět, jak bude fotka natočená. U Corrective nás zajímá mřížka, nikoli náhled fotky.
+<b>Show Image Preview</b> – zaškrtnutím povolíme zobrazování náhledu při otáčení. Pozor, funguje pouze u <em>Direction – Normal</em>, kde je žádoucí vidět, jak bude fotka natočená. U <em>Corrective</em> nás zajímá mřížka, nikoli náhled fotky.
 
 - <b>Image Opacity</b> – průhlednost náhledu.
 
@@ -107,22 +109,22 @@ Dialog se zobrazí po aktivaci nástroje Rotate Tool a následném kliknutí do 
 
 <b>Angle</b> – stupeň otočení. Lze nastavit šipkami, posunem kolečka níže nebo tažením za mřížku přímo na fotce.
 
-<b>Center X/Y</b> – nastavení středu rotace, teda kolem jakého bodu se bude rotovat.
+<b>Center X/Y</b> – nastavení středu rotace, tedy kolem jakého bodu se bude rotovat. Tlačítkem Reset zrušíme natočení, které jsme nastavili, ale dialog zůstane otevřený. Stisknutím Cancel se nastavené otočení neprovede a dialog zmizí.
 
 <a href="/images/dialog.png", target="blank"><img src="/images/dialog.png" class="image-in-text" style="width:400px;margin:auto;display:block;"></img></a>
 
 <b>Jak na to!</b>
 
-Fotografii otevřeme pomocí File - Open. Vybereme nástroj Rotate Tool a napravo nastavíme: 
+Fotografii otevřeme pomocí <em>File - Open</em>. Vybereme nástroj <em>Rotate Tool</em> a napravo nastavíme: 
 
-- Transform – Layer
-- Direction – Corrective
-- Interpolation - Cubic
-- Clipping – Crop with aspect
+- <em>Transform – Layer</em>
+- <em>Direction – Corrective</em>
+- <em>Interpolation - Cubic</em>
+- <em>Clipping – Crop with aspect</em>
 
 <a href="/images/1.png", target="blank"><img src="/images/1.png" class="image-in-text" style="width:500px;margin:auto;display:block;"></img></a>
 
-Klepnutím do fotky se objeví Rotate Dialog, kde mřížku natočíme tak, aby byl nakloněný horizont srovnaný s pomocnými vodítky. 
+Klepnutím do fotky se objeví <em>Rotate Dialog</em>, kde mřížku natočíme tak, aby byl nakloněný horizont srovnaný s pomocnými vodítky. 
 
 <a href="/images/2.png", target="blank"><img src="/images/2.png" class="image-in-text" style="width:500px;margin:auto;display:block;"></img></a>
 
@@ -130,6 +132,8 @@ Po kliknutí na Rotate se fotka správně otočí a ořeže se na původní pom�
 
 <a href="/images/3.png", target="blank"><img src="/images/3.png" class="image-in-text" style="width:500px;margin:auto;display:block;"></img></a>
 
-Nyní stačí ořezat i plátno pod ní a to pomocí Image- <b>Fit Canvas to Layers. </b>
+Nyní stačí ořezat i plátno pod ní a to pomocí <em>Image-Fit Canvas to Layers.</em>
 
 <a href="/images/4.png", target="blank"><img src="/images/4.png" class="image-in-text" style="width:500px;margin:auto;display:block;"></img></a>
+<br><br>
+<h5 class="extra-box">Pokud si budete chtít prováděné úpravy přímo vyzkoušet, zdrojovou fotografii naleznete <a href="/images/horizont.jpg">zde</a></h5>
