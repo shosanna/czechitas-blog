@@ -6,86 +6,76 @@ author: Anna
 layout: post
 ---
 
-Možná se občas divíte, jak je možné, že dostáváte tolik spamu, který je fakt
-hodně divný.  Mně třeba občas píše nigerijská ministryně financí, že se mnou
+Možná se občas divíte, jak je možné, že dostáváte tolik fakt hodně divného spamu.
+Mně třeba občas píše nigerijská ministryně financí, že se mnou
 provede nějakou super výhodnou transakci, na které zaručeně vydělám. Vedle toho
 pravidelně ve své schránce nacházím nabídky na zázračné pilulky, díky nímž
 udělám svou lady šťastnou. Jindy zase dostanu email, že se někdo (používající
-google translate) píše, že se zasekl na letišti, kde mu ukradli všechny doklady
-a ať mu pošlu 1200  EUR a že mi je hned vrátí.
+Google Translate) zasekl na letišti, kde mu ukradli všechny doklady,
+a ať mu pošlu 1 200 EUR, že mi je hned vrátí…
 
-Říkala jsem si vždycky, že nechápu, kde někdo takový mou adresu sežene. Sice ji
+Vždycky jsem si říkala, že nechápu, kde někdo takový mou adresu sežene. Sice ji
 občas zadávám někam při registraci, řekla bych, že samých důvěryhodných
-projektů ale ty nemají žádnou souvislost ani s Nigerií, ani s pilulkami na
+projektů, ale ty nemají žádnou souvislost ani s Nigerií, ani s pilulkami na
 podporu dlouhotrvající erekce (fakt ne!).
 
-Jak tedy může někdo mojí (vaší, jakoukoli….) adresu získat a pak na ní posílat
+Jak tedy někdo může získat mou (vaši, jakoukoli…) adresu, a pak na ni posílat
 divný a nebezpečný emaily?
 
-Existuje způsob, kterému se říká **email harvesting** - tedy sklízení emailů.
+Existuje způsob, kterému se říká **email harvesting** – tedy sklízení emailů.
 Někdo prohnaný prostě vytvořil vyhledávač emailů, který prochází web a sbírá
-všechno, co vypadá jako email (tedy nějaké seskupení znaků kolem @).
+všechno, co vypadá jako emailová adresa (tedy nějaké seskupení znaků kolem @).
 
-Věřím, že třeba takové holčičí blogísky, kde vyhlašují tzv. givaways s tím, že
-vyberou jednoho z těch, co do komentáře napíšou svojí emailovou adresu a důvod
-proč neonová rtěnka se zelenými flitry prostě musí být jejich, musí být pro
-tyhle kombajny na emaily naprostá lahůdka.
+Věřím, že třeba takové holčičí blogísky, kde vyhlašují tzv. _givaways_ s tím, že
+vyberou jednoho z těch, kdo do komentáře napíše svou emailovou adresu a důvod,
+proč neonová rtěnka se zelenými flitry prostě musí být jeho, musí být pro
+tyhle _kombajny_ na emaily naprostá lahůdka.
 
-Tak si říkám, kolik těch míst kam jsem zadala svůj email ho i zveřejňuje? Je to
-dost.  Více než dost…Škola, sociální sítě, inzeráty, které jsem podala, když
-jsem hledala spolubydlící. Whois, kde je info o mých doménách…Uffff. Email mám
-pět let, takže…najednou je mi jasné, že za tu dobu můj email musel být
+Tak si říkám: kolik těch míst, kam jsem zadala svůj email, ho i zveřejňuje? Je jich
+dost. Více než dost… Škola, sociální sítě, inzeráty, které jsem podala, když
+jsem hledala spolubydlící, Whois, kde je info o mých doménách… Uffff. Email mám
+pět let, takže… najednou je mi jasné, že za tu dobu musel být můj email
 mnohokrát sklizen.
 
 Jenže to není všechno. Někteří spammeři prostě **emaily zkouší uhodnout**. Dají
-dohromady často používaná jména a zkouší to na různých doménách. Příklad? V ČR
-časté jméno Jan Novák.  A už to jede… jan.novak…gmail/ seznam/email/centrum/
-atd. U domén firem je časté třeba jméno info, recepce, účtárna a další.
-Upřímně - ta šance, že se trefí, je prostě docela vysoká. Pak taky existují
-spammerské viry, které když napadnou počítač, vysají z něj všechny emaily a pak
-třeba pod vašim jménem můžou rozesílat spam.  Snad nemusím říkat, že na žádný
-link v emailu, který je očividně spam NEKLIKEJTE a neotevírejte žádné přiložené
-soubory.
+dohromady často používaná jména a zkouší je na různých doménách. Příklad? V ČR
+časté jméno Jan Novák. A už to jede… jan.novak… gmail/seznam/email/centrum/atd.
+U firemních domén je časté třeba jméno info, recepce, účtárna a další.
+Upřímně – ta šance, že se trefí, je prostě docela vysoká.
 
-Seznam emailů sám o sobě je **cenným zbožím, se kterým se obchoduje**. Takže, když
-jeden takový  kombajn sklidí Váš email, tak ho může klidně prodat desítkám
-dalších a ti vám můžou vesele posílat co se jim zlíbí.
+Pak taky existují
+spammerské viry, které když napadnou počítač, vysají z něj všechny emaily, a pak
+třeba pod vašim jménem rozesílají spam. Snad nemusím říkat, že na žádný
+odkaz v emailu, vypadající jako očividný spam, **neklikejte** a neotevírejte žádné
+přiložené soubory!
 
-Hodně internetových diskuzních fór, kam zadáváte svůj email, provozujaí
+Seznam emailů je sám o sobě **cenným zbožím, se kterým se obchoduje**. Takže když
+jeden takový _kombajn_ sklidí Váš email, tak ho může klidně prodat desítkám
+dalších a ti Vám mohou vesele posílat, co se jim zlíbí.
+
+Hodně internetových diskuzních fór, kde zadáváte svůj email, provozují
 spammerské firmy, které pak vesele posílají spam a poskytují možnost rozeslání
 emailů každému, kdo si to zaplatí. Nebudu je jmenovat, ale není těžké si je
 vygooglit.
 
-Pak taky existují spammerské viry, které když napadnou počítač, vysají z něj
-všechny emaily a pak třeba pod vašim jménem můžou rozesílat spam.
+Doufám, že nyní už je Vám jasnější, odkud se k Vám spam dostane.
 
-Doufám, že je Vám nyní už jasnější, odkud se k Vám spam dostane.
-
-To, proč je spam často tak zoufale stupidní si dovedu vysvětlit jen tak, že
+Proč je spam často tak zoufale stupidní, si dovedu vysvětlit jen tak, že
 jeho autor prostě věří, že se najde nějaký blb, který naletí. Více o tom se dá
 přečíst třeba [tady](http://www.reflex.cz/clanek/zpravy/47196/tajemstvi-nigerijskych-dopisu-stale-existuji-lide-kteri-se-nechaji-snadno-pripravit-o-penize.html)
 
 ## Jak se spamu zbavit
 
-Nebudu dlouze rozepisovat něco, co již napsalo mnoho a mnoho lidí předemnou.
-Hezky je to rozepsané i s návody [zde](http://david-r92.blog.cz/1309/jak-se-zbavit-otravnych-e-mailu)
+Nebudu dlouze rozepisovat něco, co již napsalo mnoho a mnoho lidí přede mnou.
+Hezky je to rozepsané i s návody [zde](http://david-r92.blog.cz/1309/jak-se-zbavit-otravnych-e-mailu).
 
-ale ve zkratce:
+Ale ve zkratce:
 
-1. Ideálně nikam nezadávejte svůj pravý email. Vytvořte si **jeden fiktivní** a ten
-používejte, když už se musíte nutně někam registrovat. 
+1. Ideálně nikam nezadávejte svůj pravý email. Vytvořte si jeden **fiktivní**, a ten
+používejte, když už se musíte nutně někam registrovat.
 
-2. Pokud Vám už teď chodí tuna spamu, tak si dejte blokovat adresy, ze kterých chodí nebo si
-nastavte filtry podle častých slov, která se ve spamu objevují 
-
-
-Info jsem čerpala hlavně na [Wikipedii](http://en.wikipedia.org/wiki/Email_address_harvesting) a na [www.uceprotect.net](www.uceprotect.net]) 
+2. Pokud Vám už teď chodí tuna spamu, tak si dejte blokovat adresy, ze kterých chodí, nebo si
+nastavte filtry podle častých slov, která se ve spamu objevují.
 
 
-
-
-
-
-
-
-
+Info jsem čerpala hlavně na [Wikipedii](http://en.wikipedia.org/wiki/Email_address_harvesting) a na [www.uceprotect.net](www.uceprotect.net]).
